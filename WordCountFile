@@ -1,0 +1,6 @@
+Functions that return the current date or time
+1
+each are evaluated only once per query at the start
+of query execution. This means that multiple references
+to a function such as NOW() within a single query always
+produce the same result. (For our purposes, a single query also
